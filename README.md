@@ -20,5 +20,5 @@ The description of result images:
     - "TN" means the result model is labelled as true negative
 - The right image (ground truth image) can show the following labels:
     - "TP #" means a number of true positive results
-    - "FP #:..." means a number of false positive results
+    - "FN #:..." means a number of false negative results
     - "TN" means the result model is labelled as true negative

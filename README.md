@@ -9,3 +9,16 @@ The code performs following functions:
 4) Save the result images in according folders: TP, FP, FN, TN.
 
 Further, you can analyze the result images in FP and FN folders to create the new dataset that will enhance your model
+
+The description of result images:
+- The result images contain two images
+    - The left image has predicted bounding boxes
+    - The right image has bounding boxes from ground truth
+- The left image (detected object) can show the following labels:
+    - "TP +(dupl.) #:..." means a number of true positive results with possible duplicates (if they exist)
+    - "FP #:..." means a number of false positive results
+    - "TN" means the result model is labelled as true negative
+- The right image (ground truth image) can show the following labels:
+    - "TP #" means a number of true positive results
+    - "FP #:..." means a number of false positive results
+    - "TN" means the result model is labelled as true negative
